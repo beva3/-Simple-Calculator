@@ -7,5 +7,7 @@
 void run_calculator();
 // additional functions
 double add(double n1, double n2);
+// subtract fucntin
+double subtract(double n1, double n2);
 
 #endif // !__CALCULATOR__
