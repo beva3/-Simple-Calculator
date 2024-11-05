@@ -3,6 +3,8 @@
 
 #include <stdio.h>
 
+// function to handle error
+void handle_error(const char *message);
 //main qui gere l'interaction avec l'utilisateur
 void run_calculator();
 // additional functions
