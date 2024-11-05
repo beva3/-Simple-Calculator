@@ -13,7 +13,7 @@ void run_calculator(){
         printf("Enter an operator (+,-,*,/,^,r) : ");
         if(scanf(" %c", &operator) != 1){
             handle_error("Invalid operator! ");
-            continue;
+            // continue;
         }else{
             if(operator == 'r'){
                 return_value = square_root(n1);
@@ -22,7 +22,7 @@ void run_calculator(){
                 printf("Enter another number : ");
                 if(scanf("%lf", &n2) != 1){
                     handle_error("Invalid number! ");
-                    continue;
+                    // continue;
                 }
                 return_value = perform_operation(n1, n2, operator);
                 printf("Result : %.2f\n", return_value);
