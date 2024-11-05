@@ -8,6 +8,24 @@ void handle_error(const char *message){
     printf("Error: %s\n", message);
 }
 
+double perform_operation(double n1, double n2,char operator){
+    switch (operator){
+        case '+':
+            return add(n1, n2);
+        case '-':
+            return subtract(n1, n2);
+        case '*':
+            return multiply(n1, n2);
+        case '/':
+            return divide(n1, n2);
+        case '^':
+            return exponent(n1, n2);
+        default:
+            handle_error("Invalid operator! ");
+            return 0.0;
+    }
+}
+
 double add(double n1, double n2){
     return n1 + n2;
 }

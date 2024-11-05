@@ -8,6 +8,8 @@
 void handle_error(const char *message);
 //main qui gere l'interaction avec l'utilisateur
 void run_calculator();
+// function to perform  an arithmetic operation
+double perform_operation(double n1, double n2,char operator);
 // additional functions
 double add(double n1, double n2);
 // subtract fucntin
