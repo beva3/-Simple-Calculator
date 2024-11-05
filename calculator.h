@@ -18,5 +18,7 @@ double multiply(double n1, double n2);
 double divide(double n1, double n2);
 // square root function
 double square_root(double n);
+// exponent function
+double exponent(double base, double exponent);
 
 #endif // !__CALCULATOR__

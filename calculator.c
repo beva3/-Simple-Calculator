@@ -35,3 +35,7 @@ double square_root(double n){
     }
     return sqrt(n);
 }
+
+double exponent(double base, double exponent){
+    return pow(base, exponent);
+}
