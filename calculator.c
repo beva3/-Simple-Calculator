@@ -27,3 +27,11 @@ double divide(double n1, double n2){
     }
     return n1 / n2;
 }
+
+double square_root(double n){
+    if(n < 0){
+        handle_error("Square root of a negative number! ");
+        return 0;
+    }
+    return sqrt(n);
+}
